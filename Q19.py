@@ -3,12 +3,16 @@
 Word = raw_input("Please Enter a Word!\n")
 x=0
 
-for i in range (len(word)/2)
-  if(word[x])==(word[len(word)-x-1]):
+for x in range (len(Word)/2):
+  if(Word[x])==(Word[len(Word)-x-1]):
     x += 1
   else:
     t = False
 
-  if x == (len(word)/2):
+  if x == (len(Word)/2):
     t = True
-    
+
+if t == True:
+  print "True"
+else:
+  print "False"
