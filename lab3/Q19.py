@@ -71,7 +71,7 @@ for year in range(1900,2000):
         day = 1
 
 
-print(yearcount)
-print(monthcount)
-print(daycount)
+#print(yearcount)
+#print(monthcount)
+#print(daycount)
 print(count);
